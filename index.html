@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-Ua-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Stylish Portfolio</title>
+
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <!-- Bootstrap css -->
+    <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Main css -->
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- Bootstrap, jQuery -->
+    <!-- <script src="js/bootstrap.min.js"></script>
+    <script src="jQuery/jquery-3.1.1.min.js"></script>-->
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- Scrollspy-->
+    <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+    <!-- Navbar -->
+    <nav id="mainNav" class=" navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#myPage">Home</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#who">WHO</a></li>
+                    <li><a href="#how">HOW</a></li>
+                    <li><a href="#what">WHAT</a></li>
+                    <li><a href="#where">WHERE</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <div class="container-fluid text-center bg-head">
+        <h3>Web developing</h3>
+        <hr class="breaker">
+        <img src="logo.jpg" class="img-circle" alt="IT-logo">
+        <hr class="breaker">
+        <h3>Technology never dies</h3>
+    </div>
+    <!-- First grid -->
+    <div id="who" class="container-fluid bg-content1 text-center slideanim">
+        <h2>Who we are ?</h2>
+        <p>We are a small company centralized in Zielona Góra, Poland that provides websides as you wish. We also creates small apps on android or iOS. Want to see our projects? Check our website!</p>
+        <button class="btn btn-default btn-lg">
+            <span class="glyphicon glyphicon-search"></span> Search
+        </button>
+    </div>
+
+    <!--Second grid -->
+    <div id="how" class="container-fluid bg-content2 text-center slideanim">
+        <h2>How can we help you?</h2>
+        <p>Are you bored of bugs and not working animations on your webside? You try aimlessly to fix this problem for hours on end. We are here to help you. You can easily order a webside after consulting.</p>
+    </div>
+
+    <!-- Carousel -->
+    <div id="mainCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#mainCarousel" data-slide-to="1"></li>
+            <li data-target="#mainCarousel" data-slide-to="2"></li>
+            <li data-target="#mainCarousel" data-slide-to="3"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner text-center" role="listbox">
+            <div class="item active">
+                <h3><i>"Everyone should know how to program a computer, because it teaches you how to think"</i></h3>
+            </div>
+
+             <div class="item">
+                <h3><i>"Code never lies, comments sometimes do."</i></h3>
+            </div>
+
+             <div class="item">
+                <h3><i>"Don't be the same, be better."</i></h3>
+            </div>
+
+             <div class="item">
+                <h3><i>"Technology is everywhere. Don't let it stop."</i></h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Offer -->
+    <div id="what" class="container-fluid bg-content2 text-center">
+        <h2> What we offer </h2>
+        <hr class="breaker">
+        <div class="row slideanim">
+            <div class="col-sm-4">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>Best HTML templates in the latest standard of HTML5. Check our projects.</p>
+                        <i class="fa fa-html5 fa-4x" aria-hidden="true"></i>
+                    </div>
+                    <div class="panel-footer">
+                        <button class="btn btn-default btn-lg">Check</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>Fresh colours, beautiful animations and many others with the actual version of CSS3.</p>
+                        <i class="fa fa-css3 fa-4x" aria-hidden="true"></i>
+                    </div>
+                    <div class="panel-footer">
+                        <button class="btn btn-default btn-lg">Check</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h3>Android</h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>Not only websites. Discover us also on your app very soon.</p>
+                        <i class="fa fa-android fa-4x" aria-hidden="true"></i>
+                    </div>
+                    <div class="panel-footer">
+                        <button class="btn btn-default btn-lg">Check</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Google maps -->
+    <div id="where" class=" bg-content1 col-sm-12 text-center">
+        <h2>Where we are </h2>
+        <hr class="breaker">
+    </div>
+    <div id="googleMap" style="height:600px;width:100%;margin:auto;"></div>
+
+    <!-- Contact -->
+    <div id="contact" class=" bg-content2 container-fluid slideanim">
+        <h2 class="text-center">CONTACT</h2>
+        <hr class="breaker">
+        <div class="row">
+            <div class="col-sm-5">
+                <p>Contact with us. We response as soon as it's possible</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span> Zielona Gora, Poland</p>
+                <p><span class="glyphicon glyphicon-phone"></span> +48997364123</p>
+                <p><span class="glyphicon glyphicon-envelope"></span> khinvestments@email.com</p>
+            </div>
+            <div class="col-sm-7">
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                    </div>
+                </div>
+                <textarea class="form-control" id="comments" name="comments" placeholder="Comment.." type="text" rows="5">
+                </textarea>
+                <br>
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <button class="btn btn-default pull-right btn-lg" type="submit">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class=" bg-content1 container-fluid text-center">
+        <a href="#myPage" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <p> KH Investments properties. All rights reserved &copy</p>
+        <hr class="breaker">
+    </footer>
+
+    <!-- Google maps script -->
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script>
+        var myCenter = new google.maps.LatLng(51.940268, 15.509028);
+
+        function initialize()
+        {
+            var mapProp =
+            {
+                center:myCenter,
+                zoom:12,
+                scrollwheel:false,
+                draggabe:false,
+                mapTypeId:google.maps.MapTypeId.ROADMAP
+            };
+
+            var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+            var marker = new google.maps.Marker({position:myCenter,});
+
+            marker.setMap(map);
+        }
+
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+    <!-- Smooth scrolling -->
+    <script>
+        $(document).ready(function()
+        {
+            // Add scrolling to all links in navbar and footer
+            $(".navbar a, footer a[href='#myPage']").on('click', function(event){
+
+                // Make sure this.hash has a value
+                if (this.hash !== "") {
+
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Add jQuery smooth scrolling
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 900, function(){
+
+                        // Add hash to URL when done scrolling
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        })
+
+        // Animation
+        $(window).scroll(function(){
+            $(".slideanim").each(function(){
+                var pos = $(this).offset().top;
+
+                var winTop = $(window).scrollTop();
+                if(pos < winTop + 600){
+                    $(this).addClass("slide");
+                }
+            });
+        });
+
+    </script>
+    </body>
+</html>
